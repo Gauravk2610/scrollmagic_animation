@@ -1,0 +1,12 @@
+.video-scroll-animator  {
+    height: 100vh;
+    inset: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.video__scroll {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,1 @@
+export { VideoScrollAnimator } from './src/components/VideoScrollAnimator'

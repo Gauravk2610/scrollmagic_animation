@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "outDir": "./lib/esm",
     "lib": [
       "dom",
       "dom.iterable",
@@ -18,9 +19,17 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "declaration": true,
+    "typeRoots": [
+      "index.d.ts",
+      "node_modules/@types"
+    ],
   },
   "include": [
-    "src"
+    "src/components"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }
